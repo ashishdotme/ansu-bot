@@ -3,6 +3,7 @@ import { Intents, Interaction, Message } from "discord.js";
 import { Client } from "discordx";
 import { dirname, importx } from "@discordx/importer";
 import { Koa } from "@discordx/koa";
+import 'dotenv/config'
 
 export const client = new Client({
   simpleCommand: {
